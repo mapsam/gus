@@ -1,9 +1,32 @@
 body {
 	margin:0;
 	padding:0;
+  font-family:"Helvetica", arial, sans-serif;
+}
+#info {
+  position:absolute;
+  padding:5px 0;
+  width:100%;
+  background-color:#e5e5e5;
+}
+#info p {
+  padding:0 10px;
+  margin:0;
+  font-size:1.3em;
+}
+.btn.add {
+  float:right;
+  font-size:.7em;
+  text-transform:uppercase;
+  background-color:steelblue;
+  color:#fff;
+  display:inline-block;
+  padding:5px 10px;
+  text-decoration:none;
 }
 #map {
 	position:absolute;
-	width:100%;
 	height:100%;
+  width:100%;
+  z-index: -10;
 }

@@ -38,6 +38,11 @@ $(document).ready(function(){
 
         map.setView(map.getCenter());
 
+        map.on('click', function(e) {
+          var coords = document.getElementById('coords');
+          coords.innerHTML="<p>Lat: <strong>" + e.latlng.lat + "</strong>, Lng: <strong>" + e.latlng.lng+"</strong>";
+        });
+
       },
      simpleSheet: true } );
   }

@@ -33,7 +33,7 @@ In order for GUS to pull your data, you'll want to publish the spreadsheet to th
 
 Press the "publish" button, and you'll see a URL come up with your published data. This is an important URL!
 
-![Published spreadsheet URL](img/published-spreadsheet-url.png)
+![Published spreadsheet URL](static/img/published-spreadsheet-url.png)
 
 #### Obtain spreadsheet unique key
 

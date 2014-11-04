@@ -23,7 +23,7 @@ function buildMap(data, tabletop) {
   
   // set map name with sheetname
   var info = document.getElementById('info');
-  info.innerHTML = '<p>Search for <strong>'+tabletop.foundSheetNames[0]+'</strong><a class="btn add" href="https://docs.google.com/spreadsheets/d/'+tabletop.key+'/edit#gid=0" target="_blank">Add A Point</a></p>';
+  info.innerHTML = '<p>Map for <strong>'+tabletop.foundSheetNames[0]+'</strong><a class="btn add" href="https://docs.google.com/spreadsheets/d/'+tabletop.key+'/edit#gid=0" target="_blank">Add A Point</a></p>';
 
   // build sidebar
 

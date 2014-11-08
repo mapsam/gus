@@ -2,9 +2,6 @@
 layout: home
 ---
 
-GUS
-===
-
 Gus is an attempt to connect collaborative Google Spreadsheets with open mapping technologies. The idea is to allow the user to quickly and easily create a new, accessible, and updatable point-based map via simple spreadsheets. It relies on *three* technologies:
 
 1. [Google Spreadsheets](https://docs.google.com/spreadsheet/), *spatial data storage*
@@ -52,8 +49,8 @@ https://docs.google.com/spreadsheets/d/<b>YOUR_UNIQUE_ID</b>/pubhtml
 
 The final step is to essentially pass this spreadsheet key as a parameter into the *GUS* url field. You can do this in two ways:
 
-1. Head to [mapsam.com/gus/find/](http://mapsam.com/gus/find/) with your unique key and enter it in the field.
-1. Build your URL manually <code>http://mapsam.com/gus/find?<b>YOUR_UNIQUE_ID</b></code>
+1. Head to [mapsam.com/gus/map/](http://mapsam.com/gus/map/) with your unique key and enter it in the field.
+1. Build your URL manually <code>http://mapsam.com/gus/map?<b>YOUR_UNIQUE_ID</b></code>
 
 If there are no problems with your data, you should see a map populate automatically with your data on the left and bounded points in the map. If not, there should be appropriate errors stating the issue.
 

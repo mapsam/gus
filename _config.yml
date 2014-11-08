@@ -7,7 +7,7 @@ description: Google Spreadsheets and Leaflet
 # Your name, as you want it to appear underneath each post and in the footer
 author: Sam Matthews
 
-baseurl: /gus
+baseurl: 
 url: http://mapsam.com/gus/
 
 #### Under the Hood Stuff #####

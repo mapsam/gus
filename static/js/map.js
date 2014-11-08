@@ -34,7 +34,8 @@ function buildMap(data, tabletop) {
 
   for(var i=0;i<data.length;i++) {
     var marker = L.marker([parseFloat(data[i].lat), parseFloat(data[i].lng)]);
-    marker.bindPopup('<strong>'+data[i].notes+'</strong><br><em>Posted By: '+data[i].entryby);
+    var popupInfo = metadata(data[i]);
+    marker.bindPopup(popupInfo);
     points.addLayer(marker);
   }
 
@@ -69,6 +70,21 @@ function setForm() {
     window.location.href = document.location + '?' + $('#unique-id-value').val();
     return false;
   });
+}
+
+function metadata(properties) {
+  var obj = Object.keys(properties);
+  var info = "";
+  for(var p=0; p<obj.length; p++) {
+    var prop = obj[p];
+    if (prop != 'lat' &&
+        prop != 'lng' &&
+        prop != 'rowNumber') {
+      info += "<p><strong>"+prop+"</strong>: "+properties[prop]+"</p>";
+    }
+  }
+  console.log(info);
+  return info;
 }
 
 function showErrors(err) {

@@ -25,7 +25,7 @@ Gus is an attempt to connect collaborative Google Spreadsheets with open mapping
 
 #### Copy example data
 
-Next, you'll want to copy **[this spreadsheet's data](https://docs.google.com/spreadsheets/d/1SU4q9l75X20wbvIecroglqIJYyMXn5n6Tnx6lRG5E_A/edit#gid=0)** to ensure you properly format your spreadsheet for GUS to work.
+Next, you'll want to copy **[this spreadsheet's data](https://docs.google.com/spreadsheets/d/1phY589_LeK9_0TQtdL01t7Y8Fcj_PS1l98TnJCdknLM/edit#gid=0)** to ensure you properly format your spreadsheet for GUS to work. The spreadsheet only requires two columns, **lat** and **lng** to process properly. From there, you can add any number of columns and name them whatever you'd like.
 
 #### Publish your spreadsheet
 
@@ -40,7 +40,7 @@ Press the "publish" button, and you'll see a URL come up with your published dat
 The unique identifier for your spreadsheet is accessed via the URL provided when you publish to the web. It is also available in the URL when you are editing your spreadsheet.
 
 <pre><code>
-https://docs.google.com/spreadsheets/d/<b>1SU4q9l75X20wbvIecroglqIJYyMXn5n6Tnx6lRG5E_A</b>/pubhtml
+https://docs.google.com/spreadsheets/d/<b>1phY589_LeK9_0TQtdL01t7Y8Fcj_PS1l98TnJCdknLM</b>/pubhtml
 https://docs.google.com/spreadsheets/d/<b>YOUR_UNIQUE_ID</b>/pubhtml
 </code></pre>
 
@@ -67,9 +67,9 @@ When viewing your map, if you **right click** you will see a notification of the
 
 The name of your spreadsheet when viewing on the GUS site is populated from the sheet name. **This is not the file name** but rather the name of the sheet in the bottom left corner. Spreadsheets are made of sheets, and each sheet can be renamed. You can rename the sheet from *Sheet1* (default) to anything you want and it should populate accordintely on the GUS site via your URL.
 
-#### Editing column headers
+#### Column headers
 
-**DO NOT** edit the column headers. These are integral to the map working properly.
+You can edit column headers to be whatever you'd like. Right now the *only* required column names are `lat` & `lng`. One important thing to note, Tabletop only returns "safe name" column headers, meaning it removes spaces, capitol letters, and special characters. This results in the column headers in your info panel showing up accordingly, and not how you type them in your spreadsheet. For example, `My First Name` results in `myfirstname`. Just be careful when naming them!
 
 # THANKS
 

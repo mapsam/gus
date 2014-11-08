@@ -2,9 +2,6 @@
 layout: home
 ---
 
-GUS
-===
-
 Gus is an attempt to connect collaborative Google Spreadsheets with open mapping technologies. The idea is to allow the user to quickly and easily create a new, accessible, and updatable point-based map via simple spreadsheets. It relies on *three* technologies:
 
 1. [Google Spreadsheets](https://docs.google.com/spreadsheet/), *spatial data storage*
